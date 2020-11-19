@@ -32,6 +32,11 @@ a {
     border-bottom: 1px solid white;
 }
 
+a {
+    text-decoration: none;
+    color: none;
+}
+
 
 /* Content main page */
 
@@ -68,6 +73,10 @@ nav li {
 nav li:hover {
     cursor: pointer;
     color: var(--secondary);
+}
+
+nav a {
+    color: white;
 }
 
 .wrapper {
@@ -286,6 +295,34 @@ nav li:hover {
 
 /* Content services page */
 
+.services-h1 {
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.services-main-p {
+    margin-top: 2vh;
+    margin-left: 12vw;
+    width: 60%;
+}
+
+.services-h2 {
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.services-h3 {
+    padding-top: 7vh;
+    margin-left: 5vw;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services-ul {
+    margin: 0 auto;
+}
+
 
 /* modal section */
 
@@ -330,7 +367,12 @@ nav li:hover {
     border-radius: 16px;
 }
 
+.policies-box h2 {
+    padding-top: 5vh;
+}
+
 .policies-box ul {
+    padding-top: 7vh;
     font-size: 1.1em;
     width: 90%;
     margin: 0 auto;
@@ -343,10 +385,28 @@ nav li:hover {
     border-radius: 16px;
 }
 
+.accomodations-box h2 {
+    padding-top: 5vh;
+}
+
 .accomodations-box p {
+    padding-top: 5vh;
     font-size: 1.1em;
     width: 90%;
     margin: 0 auto;
+}
+
+
+/* Gallery page */
+
+.gallery-h1 {
+    margin-top: 5vh;
+}
+
+.gallery-p {
+    margin-top: 2vh;
+    margin-left: 12vw;
+    width: 70%;
 }
 
 
@@ -453,6 +513,13 @@ footer li:hover {
     .next {
         top: 50%;
         right: 2%;
+    }
+    /* services page */
+    .services-h1,
+    .services-h2,
+    .services-h3,
+    .services-main-p {
+        margin-top: 1vh;
     }
     footer {
         width: 100%;
