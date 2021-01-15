@@ -124,11 +124,11 @@ nav a {
     max-height: 500px;
     object-fit: cover;
     padding-bottom: 3%;
-    transform: translateX(-300px);
 }
 
 .img1, .img2 {
     opacity: 0;
+    transform: translateX(-300px);
 }
 
 .booking {
